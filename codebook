@@ -1,0 +1,37 @@
+# Codebook
+
+1. General:
+  - the suffix _mean indicates that the mean of this variable was taken
+  - the suffix _sd indicates that the standardderivation of this variable was taken
+  - the data contains test as well as train data together
+
+2.  
+"subject"       <- subject identifyer
+"X_mean"        <- mean of the 561-feature vector with time and frequency domain variables 
+"X_sd"          <- sd of the 561-feature vector with time and frequency domain variables 
+"y"             <- Activity 
+
+3. The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+"body_acc_x_mean"  
+"body_acc_x_sd"   
+"body_acc_y_mean"  
+"body_acc_y_sd"    
+"body_acc_z_mean"  
+"body_acc_z_sd"    
+
+
+4. The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+"body_gyro_x_mean" 
+"body_gyro_x_sd"  
+"body_gyro_y_mean" 
+"body_gyro_y_sd"   
+"body_gyro_z_mean" 
+"body_gyro_z_sd"   
+
+5. The acceleration signal from the smartphone accelerometer X or Y or Z axis in standard gravity units 'g'
+"total_acc_x_mean" 
+"total_acc_x_sd"  
+"total_acc_y_mean" 
+"total_acc_y_sd"   
+"total_acc_z_mean" 
+"total_acc_z_sd"  
