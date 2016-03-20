@@ -95,6 +95,7 @@ clean_data <- function(main){
 # or if it is already set, use this line:
 
 wd <- getwd()
+wd <- paste0(wd, "/UCI HAR Dataset")
 setwd(wd)
 
 
